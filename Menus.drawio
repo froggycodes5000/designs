@@ -231,8 +231,8 @@
             <Array as="points">
               <mxPoint x="610" y="810" />
               <mxPoint x="610" y="970" />
-              <mxPoint x="220" y="970" />
-              <mxPoint x="220" y="270" />
+              <mxPoint x="210" y="970" />
+              <mxPoint x="210" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -322,6 +322,28 @@
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-98" value="&lt;ul&gt;&lt;li&gt;Player Manager, Menu Manager, Main Menu, Options Menu, and Pause Menu are all in the same scene.&lt;/li&gt;&lt;li&gt;Each should have it&#39;s own prefab to make it easy to edit separately.&lt;/li&gt;&lt;li&gt;Menu Manager needs a reference to the Player Manager in the scene so it can check to see if a level is loaded or not.&lt;/li&gt;&lt;li&gt;Menu Manager will have a reference to each of the Main, Options, and Pause Menus&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="380" y="-70" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CoB3a_p92tAadd6meq5U-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="CoB3a_p92tAadd6meq5U-41" target="CoB3a_p92tAadd6meq5U-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="650" as="sourcePoint" />
+            <mxPoint x="350" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="840" />
+              <mxPoint x="220" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CoB3a_p92tAadd6meq5U-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="CoB3a_p92tAadd6meq5U-96" target="CoB3a_p92tAadd6meq5U-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="650" as="sourcePoint" />
+            <mxPoint x="350" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CoB3a_p92tAadd6meq5U-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="CoB3a_p92tAadd6meq5U-97" target="CoB3a_p92tAadd6meq5U-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="650" as="sourcePoint" />
+            <mxPoint x="350" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
