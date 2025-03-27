@@ -53,10 +53,10 @@
           <mxGeometry x="590" y="730" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-25" value="BMAS = MessageUtils.BroadcastMessageAcrossScenes" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry y="-110" width="360" height="30" as="geometry" />
+          <mxGeometry y="-140" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-26" value="Every menu has:&lt;div&gt;&lt;ul&gt;&lt;li&gt;A reference to it&#39;s canvas and a Menu script with:&lt;/li&gt;&lt;li&gt;A Show function&lt;/li&gt;&lt;ul&gt;&lt;li&gt;canvas.enabled = true&lt;/li&gt;&lt;li&gt;canvas.interactable = true&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;A Hide Function&lt;/li&gt;&lt;ul&gt;&lt;li&gt;canvas.interactable = false&lt;/li&gt;&lt;li&gt;canvas.enabled = false&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;An OnEnabled function that will setup UI with current settings like current volumes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry y="-70" width="360" height="170" as="geometry" />
+          <mxGeometry y="-100" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-28" value="Start()" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="285" y="200" width="120" height="20" as="geometry" />
@@ -321,7 +321,7 @@
           <mxGeometry x="360" y="470" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-98" value="&lt;ul&gt;&lt;li&gt;Player Manager, Menu Manager, Main Menu, Options Menu, and Pause Menu are all in the same scene.&lt;/li&gt;&lt;li&gt;Each should have it&#39;s own prefab to make it easy to edit separately.&lt;/li&gt;&lt;li&gt;Menu Manager needs a reference to the Player Manager in the scene so it can check to see if a level is loaded or not.&lt;/li&gt;&lt;li&gt;Menu Manager will have a reference to each of the Main, Options, and Pause Menus&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-70" width="360" height="170" as="geometry" />
+          <mxGeometry x="380" y="-100" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CoB3a_p92tAadd6meq5U-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="CoB3a_p92tAadd6meq5U-41" target="CoB3a_p92tAadd6meq5U-84">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -343,6 +343,17 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="650" as="sourcePoint" />
             <mxPoint x="350" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CoB3a_p92tAadd6meq5U-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="CoB3a_p92tAadd6meq5U-44" target="CoB3a_p92tAadd6meq5U-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="150" as="sourcePoint" />
+            <mxPoint x="430" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="230" />
+              <mxPoint x="240" y="90" />
+              <mxPoint x="660" y="90" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
